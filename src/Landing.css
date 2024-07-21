@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+*{
+
+  font-family: "Poppins", sans-serif;
+ 
+ 
+
+  
+}
+.hero{
+  height: 100vh; /* Full height of the viewport */
+  background-image: url("1111.jpeg"); /* Path to the image in the public folder */
+  background-size: cover; /* Cover the whole area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+}
+
+
+
+
+.content {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+
+.content h1 {
+  color: #251f1f;
+  font-size: 75px;
+  font-weight: 900;
+  line-height: 90px;
+  text-transform: inherit;
+  width: 70%;
+  margin: 0;
+  font-size: 75px;
+  color: rgba(225,225,225, .01);
+  background-image: url("https://img.freepik.com/free-photo/war-tank-dark-style_23-2151605651.jpg?size=626&ext=jpg&ga=GA1.1.281970803.1721014440&semt=ais_user");
+  background-repeat: repeat;
+  -webkit-background-clip:text;
+  animation: animate 15s ease-in-out infinite;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.content h1 span {
+  color:orangered;
+  font-size: 75px;
+  color: rgba(225,225,225, .01);
+  background-image: url("https://img.freepik.com/free-photo/war-tank-dark-style_23-2151605651.jpg?size=626&ext=jpg&ga=GA1.1.281970803.1721014440&semt=ais_user");
+  background-repeat: repeat;
+  -webkit-background-clip:text;
+  animation: animate 15s ease-in-out infinite;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.content img{
+
+  object-fit: cover;
+  border-radius: 95px; 
+  border: 2px solid #000000;
+  filter: drop-shadow(0 0 8px #000000);
+
+}
+
+
+
+html {
+  block-size: 100%;
+  inline-size: 100%;
+}
+
+
+
+.text-container h1{
+
+  font-size: 75px;
+  color: rgba(225,225,225, .01);
+  background-image: url("https://img.freepik.com/free-photo/war-tank-dark-style_23-2151605651.jpg?size=626&ext=jpg&ga=GA1.1.281970803.1721014440&semt=ais_user");
+  background-repeat: repeat;
+  -webkit-background-clip:text;
+  animation: animate 15s ease-in-out infinite;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+  @keyframes animate {
+    0%, 100% {
+      background-position: left top;
+    }
+    25%{
+      background-position: right bottom;
+     }
+    50% {
+      background-position: left bottom;
+    }
+    75% {
+      background-position: right top;
+    }   
+}
